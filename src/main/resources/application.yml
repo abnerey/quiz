@@ -1,0 +1,16 @@
+server:
+  port: 6969
+  servlet:
+    context-path: /quiz
+spring:
+  application:
+    name: quiz
+  datasource:
+    url: jdbc:mysql://localhost:3306/dbTest?autoReconnect=true&useSSL=false
+    username: poke
+    password: Spin@7912
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
