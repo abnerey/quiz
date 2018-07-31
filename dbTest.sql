@@ -6,4 +6,4 @@ CREATE TABLE empleado (
     salario DECIMAL(10, 2) NOT NULL,
     creacion DATE NOT NULL,
     PRIMARY KEY(id)
-)
+);
